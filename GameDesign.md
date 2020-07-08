@@ -11,6 +11,7 @@ Use a spaceship to stop an enemy from invading the Earth.
 Space battleships move up, down, left and right with a rudder, fire cannons at the spacebar, enemy forces are randomly generated, rebels are removed at one time, Aliens are capable of splitting up, so they only die when they hit a divided alien.  
 ## 5.Googly eyes
 Googlely Eyes is hidden on the screen in Easter egg format.  
+## 6.Play
 ![gamescene](https://user-images.githubusercontent.com/65111797/86890564-75636900-c138-11ea-803b-64ba944e8c5e.PNG)    
 ![Mainmenu](https://user-images.githubusercontent.com/65111797/86891075-3386f280-c139-11ea-8bb8-c3a374c877e6.PNG)  
 ![Manual](https://user-images.githubusercontent.com/65111797/86891079-34b81f80-c139-11ea-8e2e-57b12e840e1c.PNG)  
