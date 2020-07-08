@@ -1,3 +1,9 @@
+GameDesign
+==========
+#theme  
+##Setting  
+###Scenario  
+####Mechanic  
 Theme  
 Space battleships fight aliens and enemy space battleships in space.  
 Setting  
