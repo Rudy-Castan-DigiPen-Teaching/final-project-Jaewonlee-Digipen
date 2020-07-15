@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 function Laser(spos, angle) {
   this.pos = createVector(spos.x, spos.y);
   this.vel = p5.Vector.fromAngle(angle);

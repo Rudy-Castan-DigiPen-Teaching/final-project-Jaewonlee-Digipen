@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 var ship;
 var aliens = [];
 var enemy = [];

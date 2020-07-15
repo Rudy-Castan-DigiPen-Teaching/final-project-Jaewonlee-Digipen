@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 function Ship(){
 	this.pos = createVector(width/2, height/2);
 	this.r = 10;

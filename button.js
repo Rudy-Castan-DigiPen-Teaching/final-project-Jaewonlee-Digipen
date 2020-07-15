@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 class Button {
   constructor(center_x = 0, center_y = 0, button_label = "Click Me") {
     const default_width = 200;

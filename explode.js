@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 function Explode(x, y){
 	this.pos = createVector(x, y);
 	this.vel = createVector(random(-2, 2), random(-2, 2));

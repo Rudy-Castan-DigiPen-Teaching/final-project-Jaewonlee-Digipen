@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 function Firework(x, y){
 		this.particles = [];
 		this.gravity = createVector(0, 0);//이 예제에서는 사용안 함

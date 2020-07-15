@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 class MainMenu  {
   constructor() {
     this.play = new Button(width / 4, height * 3 / 5, "Play");

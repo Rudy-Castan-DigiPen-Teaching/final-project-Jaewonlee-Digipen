@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 class OptionsScreen {
   constructor() {
     const center_x = width / 2;

@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 class CreditsScreen {
   constructor() {
     this.mainmenu = new Button(width / 2, height - 100, "Main Menu");
