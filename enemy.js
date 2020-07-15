@@ -1,3 +1,4 @@
+//Jaewon Lee, Final Project, cs099, Spring, 2020
 function Enemy(pos, r){
 	if(pos){
 		this.pos = pos.copy();

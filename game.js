@@ -19,21 +19,9 @@ class game {
   if (this.mainmenu.DidClickButton()) {
       click.play()
       CurrentScene = MAIN_MENU;
-    Game.Re()
     }
   }
   Draw() {
-    this.dr = draw1()
-    this.mainmenu.DrawButton();
-  }
-  Re(){
-  ship = new Ship();
-  for (let i = 0; i < 20; i++) {
-    aliens.push(new Aliens());
-  }
-  for (let i = 0; i < 30; i++) {
-    enemy.push(new Enemy());
-  }
     this.dr = draw1()
   }
 }
@@ -109,9 +97,8 @@ function draw1() {
       // 충돌 감지
       for (var j = aliens.length - 1; j >= 0; j--) {
         if (lasers[i].hits(aliens[j])) {
-          if (aliens[j].r > 20) {
+          if (aliens[j].r > 30) {
             var newAliens = aliens[j].breakup(); // 충돌된 소행성을 쪼갠다.     
-
             aliens = aliens.concat(newAliens);
           }
           fireworks.push(new Firework(lasers[i].pos.x, lasers[i].pos.y));
@@ -188,7 +175,5 @@ function keyPressed() {
   } else if (keyCode == UP_ARROW) {
     ship.boosting(true);
     booster.play()
-  }else if(keyCode == 82){
- game.Re()
-}
+  }
 }
