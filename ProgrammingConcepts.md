@@ -20,3 +20,4 @@ Enemy ships die in one blow and aliens must be shot twice.
 # Player, Eenemy, Aliens, Effect
 ![캡처](https://user-images.githubusercontent.com/65111797/87549630-044c2480-c6e9-11ea-8edc-2ffe22747557.PNG)  
 To distinguish, the player is represented by a triangle, the enemy ship is represented by a square, for aliens, by a circle.   
+If the laser goes out of the screen, the laser disappears, and when it touches the enemy, it disappears creating an explosive effect.
